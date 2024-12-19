@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Сайт визитка</title>
+</head>
+<body>
+    <header>
+        <h1 id="about_me">MIUMIU</h1>
+    <nav>
+        <a href="#about_me">Обо мне</a>
+        <a href="#primer">Примеры работ</a>
+        <a href="#contacts">Контакты</a>
+    </nav>
+</header>
+    <main>
+        <div class="photo">
+        <img src="img/photo_2024-12-19_23-27-11.jpg">
+    </div>
+        <div class="info">
+            <h1>Обо мне</h1>
+                <p>
+                    Привет! Я Лада, начинающий программист. Увлекаюсь созданием сайтов и изучаю HTML. Хочу развиваться в IT-сфере и внести свой вклад в мир технологий. Мечтаю создать что-то полезное и интересное для людей.</p>
+        </div>
+        <div class="inline">
+            
+        </div>
+        <h2 class="hhtwo" id="primer">Примеры работ</h2> 
+        <div class="photos">
+            <div class="photoone">
+                <img src="img/photo_2024-12-20_00-00-34.jpg" alt="">
+                <a href="https://ri-666.github.io/Article-about-bees/" target="_blank"><p>Посмотреть</p></a>
+            </div>
+        <div class="phototwo">
+                <img src="img/photo_2024-12-20_00-02-36.jpg" alt="">
+                <a href="https://ri-666.github.io/Vizitka_site/" target="_blank"><p>Посмотреть</p></a>
+        </div>
+    </div>
+        <div class="inlinetwo"></div>
+        <h2 id="contacts">Контакты</h2>
+        <div class="container">
+            <form action="#" method="post">
+                <label for="name">Ваше имя:</label><br>
+                <input type="text" id="name" name="name" required placeholder="Иван Иванов"><br>
+                
+                <label for="phone">Номер телефона:</label><br>
+                <input type="tel" id="phone" name="phone" pattern="\+?[0-9]{10,15}" placeholder="+7 (999) 123-45-67" required><br>
+                
+                <label for="wishes">Ваши пожелания:</label><br>
+                <textarea id="wishes" name="wishes" rows="4" cols="50" placeholder="Опишите в кратце,что требуется"></textarea><br>
+                
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="fot">
+            <p>Обращайтесь в личные сообщения, контакты указаны с правой стороны</p>
+        </div>
+        <div class="info1">
+            <p>ladazobkova9@gmail.com<br> +7(951)-444-32-61</p>
+        </div>
+        <div class="social">
+        <img src="img/telegram.png" alt="">
+        <img src="img/vk.png" alt="">
+        <img src="img/github.png" alt="">
+        </div>
+    </footer>
+</body>
+</html>
